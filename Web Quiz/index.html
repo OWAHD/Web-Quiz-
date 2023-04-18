@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="main_Header">
+        <p class="hidden_Score">360 seconds left on the quiz.</p>
+    </header>
+    <header class="start_Header">
+        <br>
+        <h1>Quiz!</h1>
+        <header class="inner_Header">
+            <h2>Welcome to Vlad's Coding Quiz!!</h2>
+            <h2>You will have 360 seconds to answer as many Javascript questions as you can!</h2>
+            <h2>Anytime you answer incorrectly, 10 seconds will be taken off of the clock!</h2>
+            <!-- <h2 style="font-size: 50px">&#128561</h2> -->
+            <h2>Click the "BEGIN" button below to start the quiz!</h2>
+        </header>
+        <br>
+        <button id="begin_button">BEGIN</button>
+    </header>
+
+    <main class="hidden_Main">
+        <br>
+        <h1 class="Question"></h1>
+
+        <ul class="hidden_List">
+            <li id="Answer1"></li>
+            <li id="Answer2"></li>
+            <li id="Answer3"></li>
+            <li id="Answer4"></li>
+        </ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
